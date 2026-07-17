@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Glow Agency</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display&display=swap" rel="stylesheet">
+<style>
+    body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+   background: #fff0f5;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  align-items: center;
+  background: #fff0f5;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  color: #d4af37;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  height: 60vh;
+  background: url("https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9") center/cover;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.overlay h2 {
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
+
+.overlay span {
+  color: #f8c8dc;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  background: #d4af37;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* SERVICES */
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px;
+  background: #f9f9f9;
+}
+
+.card {
+  background: #f8c8dc;
+  padding: 30px;
+  border-radius: 15px;
+  width: 250px;
+  text-align: center;
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+  padding: 60px;
+  align-items: center;
+  gap: 40px;
+}
+
+.about .text {
+  flex: 1;
+}
+
+.about h2 {
+  font-family: 'Playfair Display', serif;
+  color: #d4af37;
+}
+
+.about .image img {
+  width: 350px;
+  border-radius: 15px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+}
+#box{
+    text-decoration: none;
+}
+</style>    
+
+</head>
+<body>
+
+<header>
+  <h1>Glow Agency</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="overlay">
+    <h2>Boost Your <br><span>Beauty Brand</span></h2>
+    <button>Get Started</button>
+  </div>
+</section>
+
+<section class="services">
+  <div class="card">
+    <h3><a href="" id="box">Social Media Marketing</a></h3>
+    <p>Grow your online presence</p>
+  </div>
+
+  <div class="card">
+    <h3><a href=""  id="box">Branding</a></h3>
+    <p>Build your identity</p>
+  </div>
+
+  <div class="card">
+    <h3><a href=""  id="box"> Ads Campaigns</a></h3>
+    <p>Drive traffic</p>
+  </div>
+</section>
+
+<section class="about">
+  <div class="text">
+    <h2>About Us</h2>
+    <p>
+      We help beauty brands grow with modern marketing strategies.
+      Our team creates powerful campaigns to boost your business.
+    </p>
+  </div>
+
+  <div class="image">
+    <img src="model.jpg" alt="mode_2025" id="nn" >
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Glow Agency</p>
+</footer>
+
+</body>
+</html>
